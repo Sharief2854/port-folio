@@ -1,0 +1,28 @@
+.name
+{
+    color: red;
+    text-transform: capitalize;
+}
+#red-color
+{
+    color: red;
+}
+body
+{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-size: 1.1rem;
+    
+}
+nav{
+    margin-top: 10px;
+}
+.link
+{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.link:hover{
+    text-decoration: underline;
+}

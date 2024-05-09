@@ -18,10 +18,10 @@ function NavBar()
                         <span>{name}</span>
                     </div>
                     <div className='social-media mt-3'>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-linkedin-in"></i>
-                        <i class="fa-solid fa-f"></i>
+                        <i class="fa-brands fa-twitter fa-fade"></i>
+                        <i class="fa-brands fa-instagram fa-fade"></i>
+                        <i class="fa-brands fa-linkedin-in fa-fade"></i>
+                        <i class="fa-solid fa-f fa-fade"></i>
                     </div>
                 </div>
             </nav>

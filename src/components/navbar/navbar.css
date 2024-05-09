@@ -32,6 +32,7 @@
     display: flex;
     width: 100%;
     justify-content: space-evenly;
+    position: relative;
 }
 .social-media>i
 {
@@ -43,8 +44,43 @@
     color: white;
     border-radius: 100%;
     background-color: rgb(52, 52, 52);
+
 }
 .social-media>i:hover{
-    background-color: rgb(49, 194, 213);
-    /* transition:all 0.2s ease-out 0s ; */
+    background-color: rgb(3, 249, 224);
+    animation: none;
+}
+.social-media>i::after
+{
+    content:'';
+    /* inset: 0; */
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    
+
+
+}
+.social-media>i:hover::after{
+    border-radius: 100%;
+    /* border: 0px solid rgb(255, 255, 255); */
+    border-top: 2px solid rgb(27, 27, 27);
+    border-bottom: 2px solid rgb(27, 27, 27);
+
+    
+
+    animation: rotate 1.5s ease-in-out 0s infinite normal;
+   
+}
+@keyframes rotate 
+{   
+    from
+    {
+        transform: rotate(0deg);
+    }
+    to
+    {
+        transform: rotate(360deg);
+    }
+    
 }
